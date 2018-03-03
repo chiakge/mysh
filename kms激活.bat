@@ -1,4 +1,4 @@
 cd /d "%SystemRoot%\system32"
-slmgr /skms www.94ish.me
+slmgr /skms kms.94ish.net
 slmgr /ato
 slmgr /xpr
