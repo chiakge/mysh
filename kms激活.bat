@@ -4,7 +4,7 @@
   
 if '%errorlevel%' NEQ '0' (  
   
-echo 请求管理员权限...  
+echo 脟毛脟贸鹿脺脌铆脭卤脠篓脧脼...  
   
 goto UACPrompt  
   
@@ -21,7 +21,7 @@ echo UAC.ShellExecute "%~s0", "", "", "runas", 1 >> "%temp%\getadmin.vbs"
 exit /B  
   
 :gotAdmin  
-set KmsServer=kms.94ish.net
+set KmsServer=kms.94ish.me
 cscript /nologo "%windir%\system32\slmgr.vbs" /skms %KmsServer%
 cscript  /nologo  "%windir%\system32\slmgr.vbs"  /ato
 cscript  /nologo  "%windir%\system32\slmgr.vbs"  /xpr
